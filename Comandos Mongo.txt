@@ -1,0 +1,2 @@
+Criando Container Mongo
+docker run --name MongoDb -d -p 27017:27017 -p 28017:28017 -e MONGO_INITDB_ROOT_USERNAME=admin -e MONGO_INITDB_ROOT_PASSWORD=abcd.1234 mongo:latest
